@@ -27,7 +27,7 @@ export default function Signup(){
                     id="name"
                     label="Nombre"
                     value={name}
-                    onChange={(e)=>{setUsername(e.target.value)}}
+                    onChange={(e)=>{setName(e.target.value)}}
                 ></TEInput>
 
                 {/* <input type='text' value={name}  onChange={(e)=>{setName(e.target.value)}}/><br /> */}
@@ -56,7 +56,7 @@ export default function Signup(){
                     id="password"
                     label="Contraseña"
                     value={password}
-                    onChange={(e)=>{setUsername(e.target.value)}}
+                    onChange={(e)=>{setPassword(e.target.value)}}
                 ></TEInput>
 
 
